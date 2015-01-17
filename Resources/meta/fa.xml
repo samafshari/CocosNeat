@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<userDefaultRoot>
+  <Mesh>گراف</Mesh>
+  <TreeMassacre>اسکی</TreeMassacre>
+  <Snake>مار</Snake>
+  <Raid>جنگنده</Raid>
+  <Fall>سقوط</Fall>
+  <GameOfDrones>روبات ها</GameOfDrones>
+  <Donkey>خر</Donkey>
+  <Melodie>ملودی</Melodie>
+  <Blob>کوتوله ها</Blob>
+  <Matryoshka>ماتریوشکا</Matryoshka>
+  <Bundle>دنیای بازی</Bundle>
+  <Naturals>دنیای اعداد</Naturals>
+  <TXT_CREDITS1>ساخته ای از</TXT_CREDITS1>
+	<TXT_CREDITS2>سعید افشاری</TXT_CREDITS2>
+	<TXT_CREDITS3>مهران افشاری</TXT_CREDITS3>
+  <TXT_HELP_BLOB1>نحوه ی انجام بازی</TXT_HELP_BLOB1>
+  <TXT_HELP_BLOB2>حداقل سه کوتوله ی</TXT_HELP_BLOB2>
+  <TXT_HELP_BLOB3>هم رنگ را به هم </TXT_HELP_BLOB3>
+  <TXT_HELP_BLOB4>بچسبانید تا امتیاز بگیرید.</TXT_HELP_BLOB4>
+  <TXT_HELP_BLOB5></TXT_HELP_BLOB5>
+	<TXT_SCORE_TITLE>رکورد شخصی</TXT_SCORE_TITLE>
+	<TXT_LASTSCORE> آخرین امتیاز </TXT_LASTSCORE>
+	<TXT_HIGHSCORE> بهترین رکورد </TXT_HIGHSCORE>
+  <TXT_HIGHSCORECOLON>بیشترین امتیاز: %d</TXT_HIGHSCORECOLON>
+  <TXT_YOURSCORECOLON>امتیاز شما: %d</TXT_YOURSCORECOLON>
+  <TXT_BROKEHIGHSCORE>شما رکورد زدید</TXT_BROKEHIGHSCORE>
+  <BTN_HIGHSCORES>[ رکورد ها ]</BTN_HIGHSCORES>
+	<FLASH_BROKEHIGH>شما رکورد خود را زدید</FLASH_BROKEHIGH>
+  <Play>شروع</Play>
+  <Score>امتیاز</Score>
+  <ScoreColon>امتیاز:</ScoreColon>
+  <GameOver>پایان بازی</GameOver>
+  <TXT_HIGHSCORES>بهترین بازیکن ها</TXT_HIGHSCORES>
+  <TXT_ERROR_GAMECENTERCONNECTION>ارتباط با اینترنت
+برقرار نیست.</TXT_ERROR_GAMECENTERCONNECTION>
+  <TXT_ENTERALIAS>اسم خود را وارد کنید</TXT_ENTERALIAS>
+  <BTN_SUBMITSCORE>ثبت امتیاز</BTN_SUBMITSCORE>
+  <TXT_DISABLE_SUBMIT>برای ثبت امتیاز خود در
+اینترنت و دستیابی به قابلیت های
+بیشتر در برنامه؛ نسخه ی اصلی
+را خریداری نمایید</TXT_DISABLE_SUBMIT>
+  <BTN_DISABLE_SUBMIT>ورود به بازار</BTN_DISABLE_SUBMIT>
+  <SNAKE_INSTRUCTIONS>انگشت خود را روی صفحه
+بکشید تا بازی شروع شود</SNAKE_INSTRUCTIONS>
+  <DESC_MESH>گره ها را طوری به
+همدیگر متصل کنید تا
+همه ی آنها صفر شوند</DESC_MESH>
+  <DESC_TREE>دستگاه را تکان دهید
+تا اسکی باز حرکت کند و
+به درخت ها برخورد نکند</DESC_TREE>
+  <DESC_SNAKE>با حرکت انگشت مار را
+کنترل کرده و ستاره ها
+را جمع آوری کنید</DESC_SNAKE>
+  <DESC_RAID>در هر مرحله سعی کنید
+دشمن را نابود کرده و
+زنده بمانید</DESC_RAID>
+  <DESC_FALL>دستگاه را تکان دهید
+و توپ را درون صفحه
+نگاه دارید</DESC_FALL>
+  <DESC_DONKEY>Tap to change lanes.
+  Avoid hitting the donkey</DESC_DONKEY>
+  <DESC_MELODIE>مستطیل های براق را
+به خاطر سپرده و آنها
+را به ترتیب فشار دهید</DESC_MELODIE>
+  <DESC_BLOB>حداقل سه کوتوله ی هم رنگ
+را به هم برسانید تا امتیاز
+بگیرید. مراقب باشید کسی
+از صفحه بیرون نرود</DESC_BLOB>
+  <!-- RAID -->
+  <Level>مرحله</Level>
+  <RAID_Lives>جنگنده</RAID_Lives>
+  <Speed>سرعت</Speed>
+  <Fuel>سوخت</Fuel>
+  <ExtraLife>جایزه</ExtraLife>
+
+  <!-- MESH -->
+  <Time>زمان</Time>
+  <SecondSuffix>s</SecondSuffix>
+  <Points>امتیاز</Points>
+  <MeshBreakHighScore>
+آفرین! رکورد زدید
+  </MeshBreakHighScore>
+  <MeshGetReady>آماده</MeshGetReady>
+
+  <!-- MELODIE -->
+  <Wait>ایست</Wait>
+  <Touch>حرکت</Touch>
+  <WaitBig>ایست</WaitBig>
+
+  <!-- BLOB -->
+  <Paused>ایست</Paused>
+  <PointSmall>امتیاز</PointSmall>
+  <PointsSmall>امتیاز</PointsSmall>
+  <Combo>کومبو</Combo>
+
+
+  <!-- BANNER -->
+  <LeaderboardNotAvailable>Leaderboard not available.</LeaderboardNotAvailable>
+  <HighScores>High Scores</HighScores>
+
+  <!-- DRONES -->
+  <Kills>انهدام</Kills>
+  <Moves>حرکت</Moves>
+  <StartGame>شروع</StartGame>
+  <GemStore>فروشگاه الماس</GemStore>
+  <Achievements>مدال ها</Achievements>
+  <CoolStuff>بازی های باحال</CoolStuff>
+  <Episode>قسمت</Episode>
+  <NowEntering>Now Entering</NowEntering>
+  <HowToPlay>نحوه ی انجام بازی</HowToPlay>
+  <HelpPlayer>
+    This is your avatar. Your mission
+    is to collect the star in each maze
+    without dying. Swipe your finger
+    to move.
+  </HelpPlayer>
+  <HelpRobot>
+    Hungry Noise-Activated Drones:
+    These lethal robots come after
+    any noise that they detect.
+    They will try to take the shortest
+    path to you, and if it's blocked,
+    they won't move.
+  </HelpRobot>
+  <HelpBlackhole>
+    Black Holes: They suck any
+    object that comes near them.
+  </HelpBlackhole>
+  <HelpStar>
+    Star: Collect to go to the next
+    level.
+  </HelpStar>
+  <HelpGem>
+    Gem: Collect to spend on buying
+    games and features.
+  </HelpGem>
+  <HelpConclusion>
+    For more Neat Games
+    please check out
+    facebook.com/ThisIsNeat.
+  </HelpConclusion>
+  <ExtraLockedGameMessage>
+    To unlock this game,
+    you need to pay %d gems
+    or get the pro version
+    of this bundle.
+  </ExtraLockedGameMessage>
+  <UnlockGame>Unlock Game</UnlockGame>
+  <NotEnoughGems>Not enough gems.</NotEnoughGems>
+  <UnlockEpisodeMessageWithProVersion>
+To unlock this episode,
+    you need to pay %d gems
+    or buy the pro version
+    of this game.
+  </UnlockEpisodeMessageWithProVersion>
+  <UnlockEpisodeMessage>
+    To unlock this episode,
+    you need to pay %d gems.
+  </UnlockEpisodeMessage>
+  <UnlockEpisodeMessageWithProgress>برای ورود به این قسمت
+باید قسمت های قبل را
+تمام کرده باشید!</UnlockEpisodeMessageWithProgress>
+  <UnlockEpisode>Unlock Episode</UnlockEpisode>
+  <BTNEpisode1>قسمت اول: ماه</BTNEpisode1>
+  <BTNEpisode2>قسمت دوم: مریخ</BTNEpisode2>
+  <BTNEpisode3>قسمت سوم: اورانوس</BTNEpisode3>
+  <BTNArcadeMode>ماراتون</BTNArcadeMode>
+  <BTNRandomLevels>مراحل تصادفی</BTNRandomLevels>
+  <BTNGoodStuff>بازی های باحال</BTNGoodStuff>
+  <Congratulations>آفرین!</Congratulations>
+  <EpisodeFinishedText>شما تمام مراحل این قسمت
+از بازی روبات ها را حل کردید
+  
+برای ادامه، به قسمت های بعدی
+بروید یا منتظر بروز رسانی
+بازی باشید!</EpisodeFinishedText>
+  <PlayFor1Gem>Play for 1 Gem</PlayFor1Gem>
+  <MoreExclamationMark>بیشتر</MoreExclamationMark>
+  <SplashText>برای شروع صفحه را لمس کنید</SplashText>
+  <Slash> از </Slash>
+  <Moon>ماه</Moon>
+  <Mars>مریخ</Mars>
+  <Uranus>اورانوس</Uranus>
+  
+  
+  
+<!-- Contrast -->
+<Contrast>کنتراست</Contrast>
+<DESC_Contrast>سعی کنید بلوک های
+با رنگ های غیر طبیعی را
+پیدا کنید تا امتیاز بگیرید</DESC_Contrast>
+  
+</userDefaultRoot>

@@ -1,0 +1,133 @@
+# Ignore Engine
+cocos2d/
+
+# Ignore thumbnails created by windows
+Thumbs.db
+
+# Ignore files build by Visual Studio
+*.winmd
+proj.win8.1-universal/*/Generated Files/*.*
+*.xbf
+*.exp
+*.obj
+*.exe
+proj.win8.1-universal/*/*.Windows/*
+proj.win8.1-universal/*/*.Windows*/*
+proj.win8.1-universal/ARM/*.*
+*.tlog
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vspscc
+*_i.c
+*.i
+*.icf
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.apk
+[Bb]in
+*[Dd]ebug*/
+*[Dd]ebug*.win32/
+proj.win32/*.win32/
+*.sbr
+*.sdf
+obj/
+[Rr]elease/
+[Rr]elease.win32/
+_ReSharper*/
+[Tt]est[Rr]esult*
+ipch/
+*.opensdf
+
+# Ignore files build by ndk and eclipse
+libs/
+bin/
+obj/
+gen/
+assets/
+publish/
+publish/android/*.*
+local.properties
+
+# Ignore files built by NaCl
+samples/Cpp/HelloCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/out/
+samples/Cpp/SimpleGame/proj.nacl/Resources/
+samples/Lua/HelloLua/proj.nacl/Resources/
+samples/Lua/TestLua/proj.nacl/Resources/
+
+# Ignore python compiled files
+*.pyc
+
+# Ignore files build by airplay and marmalade
+build_*_xcode/
+build_*_vc10/
+
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcscheme
+*.xcworkspacedata
+*.xcuserstate
+*.xccheckout
+xcschememanagement.plist
+.DS_Store
+._.*
+xcuserdata/
+DerivedData/
+
+# Ignore files built by AppCode
+.idea/
+
+# Ignore files built by bada
+.Simulator-Debug/
+.Target-Debug/
+.Target-Release/
+
+# Ignore files built by blackberry
+Simulator/
+Device-Debug/
+Device-Release/
+
+# Ignore vim swaps
+*.swp
+*.swo
+
+# Ignore files created by create_project.py
+projects/
+
+# Ignore config files in javascript bindings generator
+tools/tojs/user.cfg
+# ... userconf.ini generated if running from tools/tojs
+tools/tojs/userconf.ini
+tools/tolua/userconf.ini
+# ... userconf.ini generated if running from tools/jenkins_scripts/mac/android/
+tools/jenkins_scripts/mac/android/userconf.ini
+
+# CTags
+tags
+
+# ignore files, created with make-all-linux-project script
+/lib
+/build/linux-build
+
+
+Design/promo.png
+publish/android/
+publish/android/test-debug.apk
+publish/android/test-debug.apk
+proj.win8.1-universal/ARM/Contrastic/libbox2d.WindowsPhone/libbox2d.WindowsPhone.lib
+proj.win8.1-universal/ARM/Contrastic/libSpine.WindowsPhone/libSpine.WindowsPhone.lib
+proj.win8.1-universal/ARM/Contrastic/libcocos2d_8_1.WindowsPhone/libcocos2d_v3.3_WindowsPhone_8.1.lib
+proj.win8.1-universal/ARM/Contrastic/libcocos2d_8_1.WindowsPhone/libcocos2d_v3.3_WindowsPhone_8.1.dll
+proj.win8.1-universal/App.WindowsPhone/ARM/Contrastic/testwin.WindowsPhone.pch
+cocos2d

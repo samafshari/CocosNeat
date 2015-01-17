@@ -1,0 +1,61 @@
+/*int price;
+std::string title;
+Color4B color;
+std::string logo;
+std::string description;
+int* pLastScore;
+int* pHighScore;
+int* pTotalScore;
+std::string leaderboardId;
+std::string pictureUrl;
+Color4B neatColor;
+bool isLight;*/
+{
+    //"title": { ..meta.. }
+    "Mesh": {
+        "MenuColor": [ 0, 70, 140, 255 ],
+        "Icon": "meshbig",
+        "Leaderboard": "grp.MeshScoreLeaderboard1",
+        "IconUrl": "https://fbcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t39.2081-0/p128x128/10333103_1466839953571082_2067295910_n.png",
+        "NeatBackground": [ 0, 70, 140, 255 ]
+    },
+    "Mesh2": {
+        "MenuColor": [ 255, 255, 255, 255 ],
+        "Icon": "meshbig",
+        "Leaderboard": "grp.Mesh2ScoreLeaderboard",
+        "IconUrl": "",
+        "NeatBackground": [ 127, 30, 0, 255 ]
+    },
+    "TreeMassacre": {
+        "MenuColor": [ 50, 50, 50, 255 ],
+        "Icon": "treebig",
+        "Leaderboard": "grp.TreeScoreLeaderboard",
+        "IconUrl": "",
+        "NeatBackground": [ 0, 0, 0, 255 ]
+    },
+    "Snake": {
+        "MenuColor": [ 100, 0, 0, 255 ],
+        "Icon": "snakebig",
+        "Leaderboard": "grp.SnakeScoreLeaderboard",
+        "IconUrl": "https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xap1/t39.2081-0/p128x128/10333103_1534452246774621_1416840795_n.png",
+        "NeatBackground": [ 175, 0, 0, 255 ]
+    },
+    "Raid": {
+        "MenuColor": [ 0, 100, 0, 255 ],
+        "Icon": "raidbig",
+        "Leaderboard": "grp.RaidScoreLeaderboard",
+        "IconUrl": "https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-xfp1/t39.2081-0/p128x128/10574696_1517686358449858_1350433606_n.png",
+        "NeatBackground": [ 0, 75, 0, 255 ]
+    },
+    "Fall": {
+        "MenuColor": [ 100, 0, 100, 255 ],
+        "Icon": "fallbig",
+        "Leaderboard": "grp.FallScoreLeaderboard",
+        "IconUrl": ""
+    },
+    "Burgerman": {
+        "MenuColor": [ 100, 0, 100, 255 ],
+        "Icon": "gamelogo"
+    },
+    "GameOfDrones": 
+}

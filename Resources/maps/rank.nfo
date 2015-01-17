@@ -1,0 +1,68 @@
+Rand--------------
+xxxx0: 4
+xxxx1: 2.5
+yyyy2: 2
+xxxx3: 3
+yyyy4: 1
+xxxx5: 4
+yyyy6: 2
+xxxx7: 4 (GOOD)
+yyyy8: 2.5
+yyyy9: 2
+yyyy10: 2
+yyyy11: 2
+12: 2
+yyyy13: 2
+yyyy14: 2
+yyyy15: 2
+yyyy16: 2
+yyyy17: 2
+xxxx18: 3
+19: 2
+xxxx20: 4
+yyyy21: 2
+xxxx22: 3
+23: 2
+xxxx24: 4.5
+xxxx25: 3.5
+26: 1
+xxxx27: 4.5
+xxxx28: 4
+29: 2.5
+30: 2
+xxxx31: 3
+32: 2.5
+33: 1
+34: 2
+xxxx35: 3
+
+Rand picks: 0,1,3,5,7,       18,20,22,24,25,27,28,31,35
+
+
+Original:
+xxxxLvl0: 5 (TUTORIAL)
+yyyyR1: 4
+zzzzR2: 5
+yyyyR3: 4
+xxxxR4: 3
+yyyyR5: 4
+xxxxR6: 4
+xxxxR7: 4
+yyyyR8: 4
+xxxxR9: 4
+xxxxR10: 3
+xxxxR11: 3
+
+
+TUTS:
+xxxxtut0: beginner
+xxxxtut1: hazard, robots
+xxxxtut2: robots, diagonal
+yyyytut1_0: HARD- box
+yyyyTUT4: HARD- box
+yyyytut5: HARD- box, keys, multiple stars
+yyyytut6: HARD- box, keys, multiple stars
+yyyytut7: HARD- box, multiple stars
+yyyytut8: box tutorial
+yyyytut9: key tutorial
+tut10: plate tutorial

@@ -1,0 +1,33 @@
+8888888888888
+8....!..!..R8
+8.!8........8
+8...........8
+8...X8.!!...8
+8.R..!......8
+8!...!......8
+8...R..8....8
+8.!R..!...8R8
+8..!!.!..!..8
+8......@....8
+8..88.......8
+8888888888888
+ENDGRID
+noscroll
+scale 0.7
+
+
+## SERVER_TIME 1402348550.64
+## LastWins 2
+## Kills 5
+## Sequence 3,3,4,8,7,7,3,3,3,3,
+## INSTALL_ID 249168863
+## LastKills 6
+## MSG_ID 10
+## INSTANCE_ID 255043227
+## ALIAS anti_aliased
+## GAME_NAME NeatBundle
+## TIME 1402348552
+## GAME_ID -1
+## Moves 10
+## Event DronesArcadeWin
+## LastScore 16

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<userDefaultRoot>
+  <Mesh>Mesh</Mesh>
+  <TreeMassacre>Tree Massacre</TreeMassacre>
+  <Snake>Snake</Snake>
+  <Raid>Raid</Raid>
+  <Fall>Fall</Fall>
+  <GameOfDrones>Game Of Drones</GameOfDrones>
+  <DronesRandom>Random Levels</DronesRandom>
+  <DronesEggplant>Arcade Modes</DronesEggplant>
+  <Donkey>Donkey</Donkey>
+  <Melodie>MELODIE</Melodie>
+  <Blob>Hello Blobs!</Blob>
+  <Matryoshka>Matryoshka</Matryoshka>
+  <Bundle>Neat Bundle</Bundle>
+  <Mesh2>Mesh X</Mesh2>
+  <Contrastic>Contrastic</Contrastic>
+  <TXT_CREDITS1>A Game By</TXT_CREDITS1>
+	<TXT_CREDITS2>Saeed Afshari</TXT_CREDITS2>
+	<TXT_CREDITS3>Mehran Afshari</TXT_CREDITS3>
+  <TXT_HELP_BLOB1>How to Play</TXT_HELP_BLOB1>
+  <TXT_HELP_BLOB2>Match at least three</TXT_HELP_BLOB2>
+  <TXT_HELP_BLOB3>Blobs of same color to</TXT_HELP_BLOB3>
+  <TXT_HELP_BLOB4>activate them.</TXT_HELP_BLOB4>
+  <TXT_HELP_BLOB5>Touch bombs to explode!</TXT_HELP_BLOB5>
+	<TXT_SCORE_TITLE>Personal Records</TXT_SCORE_TITLE>
+	<TXT_LASTSCORE> Last Score </TXT_LASTSCORE>
+	<TXT_HIGHSCORE> Personal Best </TXT_HIGHSCORE>
+  <TXT_LASTSCORECOLON>Last Score: %d</TXT_LASTSCORECOLON>
+  <TXT_HIGHSCORECOLON>Personal Best: %d</TXT_HIGHSCORECOLON>
+  <TXT_YOURSCORECOLON>Your Score: %d</TXT_YOURSCORECOLON>
+  <TXT_TOTALSCORECOLON>Total Score: %d</TXT_TOTALSCORECOLON>
+  <TXT_CONNECT1>Connect to the Internet to</TXT_CONNECT1>
+  <TXT_CONNECT2>compete against the world!</TXT_CONNECT2>
+  <TXT_WORLDCHAMPION>You are the world champion!</TXT_WORLDCHAMPION>
+  <TXT_LEVELUPSCORE1>Get %d more points to</TXT_LEVELUPSCORE1>
+  <TXT_LEVELUPSCORE2>level up!</TXT_LEVELUPSCORE2>
+  <TXT_GLOBALRANKING>Global Ranking: #%d (%d pts)</TXT_GLOBALRANKING>
+  <TXT_BROKEHIGHSCORE>You broke the high score!</TXT_BROKEHIGHSCORE>
+  <TXT_SOURCE>The source code for this
+game is available for free!
+To obtain the code, visit
+neat-games.com/source</TXT_SOURCE>
+  <BTN_HIGHSCORES>Game Center</BTN_HIGHSCORES>
+	<FLASH_BROKEHIGH>You have broken your record!</FLASH_BROKEHIGH>
+  <Play>Play</Play>
+  <Score>score</Score>
+  <ScoreColon>Score:</ScoreColon>
+  <GameOver>Game Over!</GameOver>
+  <TXT_HIGHSCORES>High Scores</TXT_HIGHSCORES>
+  <TXT_ERROR_GAMECENTERCONNECTION>Connection to global
+leaderboard not established.</TXT_ERROR_GAMECENTERCONNECTION>
+  <BTN_SUBMITSCORE>Submit Score</BTN_SUBMITSCORE>
+  <TXT_ENTERALIAS>Enter your alias:</TXT_ENTERALIAS>
+  <TXT_DISABLE_SUBMIT>
+    
+  </TXT_DISABLE_SUBMIT>
+  <BTN_DISABLE_SUBMIT>Open Store Page</BTN_DISABLE_SUBMIT>
+  <SNAKE_INSTRUCTIONS>Swipe your finger
+to begin.</SNAKE_INSTRUCTIONS>
+  <DESC_MESH>Connect nodes to balance
+them. Solve a graph by
+making all nodes 0.</DESC_MESH>
+  <DESC_TREE>Tilt the device to
+avoid hitting trees.
+Survive as long as you can!</DESC_TREE>
+  <DESC_SNAKE>Swipe your finger to
+navigate the snake and
+collect the stars!</DESC_SNAKE>
+  <DESC_RAID>Destroy the enemies and
+survive as long as
+possible!</DESC_RAID>
+  <DESC_FALL>Tilt the device to
+move and keep the ball
+inside the screen!</DESC_FALL>
+  <DESC_DONKEY>Tap to change lanes.
+Avoid hitting the donkey!</DESC_DONKEY>
+  <DESC_MELODIE>Remember the shining blocks
+and tap them in correct
+order to score!</DESC_MELODIE>
+  <DESC_BLOB>Match at least three
+Blobs of the same color to
+activate them.
+Touch bombs to explode!</DESC_BLOB>
+  <!-- RAID -->
+  <Level>Level</Level>
+  <RAID_Lives>Lives</RAID_Lives>
+  <Speed>Speed</Speed>
+  <Fuel>Fuel</Fuel>
+  <ExtraLife>1UP</ExtraLife>
+  
+  <!-- MESH -->
+  <Time>Time</Time>
+  <SecondSuffix>s</SecondSuffix>
+  <Points>points</Points>
+  <MeshBreakHighScore>Good job!
+You broke the high score!</MeshBreakHighScore>
+  <MeshGetReady>Get ready!</MeshGetReady>
+  
+  <!-- MELODIE -->
+  <Wait>wait</Wait>
+  <Touch>touch</Touch>
+  <WaitBig>WAIT!</WaitBig>
+  
+  <!-- BLOB -->
+  <Paused>Paused</Paused>
+  <PointSmall>point</PointSmall>
+  <PointsSmall>points</PointsSmall>
+  <Combo>COMBO</Combo>
+  
+  <!-- BANNER -->
+  <LeaderboardNotAvailable>Leaderboard not available.</LeaderboardNotAvailable>
+  <HighScores>High Scores</HighScores>
+  
+  <!-- DRONES -->
+  <Kills>Kills</Kills>
+  <Moves>Moves</Moves>
+  <StartGame>Start Game</StartGame>
+  <GemStore>Gem Store</GemStore>
+  <Achievements>Achievements</Achievements>
+  <CoolStuff>Cool Stuff</CoolStuff>
+  <Episode>Episode</Episode>
+  <NowEntering>Now Entering</NowEntering>
+  <HowToPlay>How to Play</HowToPlay>
+  <HelpPlayer>This is your avatar. Your mission
+is to collect the star in each maze
+without dying. Swipe your finger
+to move.</HelpPlayer>
+<HelpRobot>Hungry Noise-Activated Drones:
+These lethal robots come after
+any noise that they detect.
+They will try to take the shortest
+path to you, and if it's blocked,
+they won't move.</HelpRobot>
+<HelpBlackhole>Black Holes: They suck any
+object that comes near them.</HelpBlackhole>
+<HelpStar>Star: Collect to go to the next
+level.</HelpStar>
+<HelpGem>Gem: Collect to spend on buying
+games and features.</HelpGem>
+<HelpConclusion>For more Neat Games
+please check out
+facebook.com/ThisIsNeat.</HelpConclusion>
+<ExtraLockedGameMessage>To unlock this game,
+you need to pay %d gems
+or get the pro version
+of this bundle.</ExtraLockedGameMessage>
+<UnlockGame>Unlock Game</UnlockGame>
+<NotEnoughGems>Not enough gems.</NotEnoughGems>
+<UnlockEpisodeMessageWithProVersion>To unlock this episode,
+you need to pay %d gems
+or buy the pro version
+of this game.</UnlockEpisodeMessageWithProVersion>
+<UnlockEpisodeMessage>To unlock this episode,
+you need to pay %d gems.</UnlockEpisodeMessage>
+<UnlockEpisodeMessageWithProgress>To unlock this episode,
+you need to first finish
+the previous episode!</UnlockEpisodeMessageWithProgress>
+<UnlockEpisode>Unlock Episode</UnlockEpisode>
+<BTNEpisode1>Episode 1: Moon</BTNEpisode1>
+<BTNEpisode2>Episode 2: Mars</BTNEpisode2>
+<BTNEpisode3>Episode 3: Uranus</BTNEpisode3>
+<BTNArcadeMode>Arcade Mode</BTNArcadeMode>
+<BTNRandomLevels>Random Levels</BTNRandomLevels>
+<BTNGoodStuff>Mini Games</BTNGoodStuff>
+<Congratulations>Congratulations!</Congratulations>
+<EpisodeFinishedText>You have finished all levels
+in this episode of
+Game of Drones.
+ 
+Check back for more levels
+in future updates!</EpisodeFinishedText>
+<PlayFor1Gem>Play for 1 Gem</PlayFor1Gem>
+<MoreExclamationMark>More!</MoreExclamationMark>
+<SplashText>Tap to begin.
+(if you dare)</SplashText>
+  <Slash>/</Slash>
+  
+  
+<!-- Contrast -->
+<Contrast>Contrast</Contrast>
+<DESC_Contrast>Find blocks with
+unusual colors among 
+other blocks!</DESC_Contrast>
+  <CONTRAST_HELP_ONELINE>Tap on the circle that looks odd.</CONTRAST_HELP_ONELINE>
+  <Exit>Exit</Exit>
+  <Skip>Skip</Skip>
+</userDefaultRoot>
