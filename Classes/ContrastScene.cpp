@@ -127,10 +127,10 @@ namespace Contrast
 
 		gameModes = vector < function<Vec2(vector<Point>)> > {
 			CC_CALLBACK_1(ContrastScene::createColor, this),
-			CC_CALLBACK_1(ContrastScene::createColorWordNormal, this),
+			CC_CALLBACK_1(ContrastScene::createColorWordNormal, this)/*,
 			CC_CALLBACK_1(ContrastScene::createColorWordOpposite, this),
 			CC_CALLBACK_1(ContrastScene::createColorSpellNormal, this),
-			CC_CALLBACK_1(ContrastScene::createColorSpellOpposite, this)
+			CC_CALLBACK_1(ContrastScene::createColorSpellOpposite, this)*/
 		};
 
 		nextBoard();
@@ -217,7 +217,7 @@ namespace Contrast
             gameModeSize = 3;
         }
         
-		Vec2 p = gameModes[rand() % gameModeSize](
+		Vec2 p = gameModes[rand() % /*gameModeSize*/gameModes.size()](
                     layouts[rand() % layoutSize]());
 
 		current->setPosition(

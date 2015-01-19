@@ -234,6 +234,10 @@ Scene* BundleGamesScene::TryRunGame(Games game, bool act)
 		target = Mesh2::Mesh2Scene::scene();
 	else
 	{
+#if defined(MINI_GAME)
+		target = TransitionFade::create(1.0f,
+			MiniMainMenu::createScene(game));
+#else
 		if (unlocked)
 			target = TransitionFade::create(1.0f, 
 			MiniMainMenu::createScene(game, Director::getInstance()->getRunningScene()));
@@ -243,6 +247,7 @@ Scene* BundleGamesScene::TryRunGame(Games game, bool act)
 			target = (TransitionFlipY::create(1.0f,
 				ExtraLockedScene::createScene(game)));
 		}
+#endif
 	}
 
 	if (act && target != nullptr)

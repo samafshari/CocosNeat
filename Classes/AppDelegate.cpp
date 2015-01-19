@@ -604,7 +604,6 @@ void AppDelegate::loadContent()
 		FRAME(matr, "matr9", 256, 512, 256, 256);
 	}
 
-
 #if !defined(BURGERMAN)
 	if (APPLICATION == Games::Drones)
 	{

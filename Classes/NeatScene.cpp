@@ -79,20 +79,19 @@ bool NeatScene::init()
 	source->setOpacity(0);
 	source->runAction(
 		Sequence::create(
-		MoveBy::create(1.7f, Point::ZERO),
+		MoveBy::create(1.0f, Point::ZERO),
 		FadeIn::create(0.7f),
 		MoveBy::create(2.0f, Point::ZERO),
 		NULL));
 	addChild(source);
 	scheduleOnce(schedule_selector(NeatScene::advanceScreen), 4.5f);
-    
-	auto touch = EventListenerTouchOneByOne::create();
-	touch->onTouchBegan = [](Touch* t, Event* e)
-	{
-		OpenUrl("neat-games.com/source");
-		return false;
-	};
-	getEventDispatcher()->addEventListenerWithSceneGraphPriority(touch, this);
+#if defined(LIGHT_THEME)
+	source->setColor(Color3B::BLACK);
+#endif
+    listener = EventListenerTouchOneByOne::create();
+    listener->onTouchBegan = CC_CALLBACK_2(NeatScene::onTouchBegan, this);
+    listener->onTouchEnded = CC_CALLBACK_2(NeatScene::onTouchEnded, this);
+	getEventDispatcher()->addEventListenerWithSceneGraphPriority(listener, this);
 	
     //call store init here
 #if !MINI_GAME
@@ -112,6 +111,19 @@ void NeatScene::menuCloseCallback(Ref* pSender)
 
 void NeatScene::advanceScreen(float)
 {
-	Director::getInstance()->replaceScene(
-		TransitionFade::create(1.0f, GetMainScene()));
+	Director::getInstance()->replaceScene(GetMainScene());
+}
+
+bool NeatScene::onTouchBegan(Touch* t, Event*)
+{
+    unscheduleAllSelectors();
+    OpenUrl("http://neat-games.com/source");
+    getEventDispatcher()->removeEventListener(listener);
+    advanceScreen();
+    return false;
+}
+
+void NeatScene::onTouchEnded(Touch*, Event*)
+{
+    
 }
